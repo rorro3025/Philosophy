@@ -1,0 +1,14 @@
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgb(71, 66, 66) !important;
+    transition: all 0.7s linear !important;   
+}
+
+.card-img-top{
+transition: all 0.2s ease-in-out;
+}
+.over{
+    overflow: hidden;
+}
+.card-img-top:hover{
+transform: scale(1.8);
+}
