@@ -28,7 +28,7 @@ function SocialBar() {
       id: 4,
       name: "YouTube_logo",
       src: youtube,
-      href: "https://www.instagram.com/rorro5894",
+      href: "https://www.youtube.com/",
     },
   ];
 

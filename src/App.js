@@ -8,7 +8,10 @@ import Footer from "./components/Footer";
 import Beauty from "./components/beauty";
 import Ubication from "./components/Ubication";
 import Contact from "./components/Contact";
+import { initfb, analic } from "./fsconfig";
 function App() {
+  initfb.analytics();
+ 
   return (
     <div className="container-fluid">
       <Router>

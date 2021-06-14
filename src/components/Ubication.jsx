@@ -19,7 +19,7 @@ function Ubication() {
                 width="65%"
                 height="400px"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
               ></iframe>
             </div>
