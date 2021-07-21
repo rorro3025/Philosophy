@@ -13,7 +13,7 @@ function App() {
   initfb.analytics();
  
   return (
-    <div className="container-fluid">
+    <div> 
       <Router>
         <Menu />
         <Switch>
