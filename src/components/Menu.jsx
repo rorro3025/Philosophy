@@ -41,6 +41,9 @@ const Menu = () => {
               <Link to="/contact" className="nav-link">
                 Contactanos
               </Link>
+              <Link to="/education" className="nav-link">
+                Educación
+              </Link>
             </div>
           </div>
           <div className="dropdown text-end">

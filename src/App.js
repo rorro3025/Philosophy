@@ -8,7 +8,9 @@ import Footer from "./components/Footer";
 import Beauty from "./components/beauty";
 import Ubication from "./components/Ubication";
 import Contact from "./components/Contact";
-import { initfb, analic } from "./fsconfig";
+import { initfb } from "./fsconfig";
+import Educacion from './components/Museum'
+
 function App() {
   initfb.analytics();
  
@@ -23,6 +25,7 @@ function App() {
           <Route path="/beauty" component={Beauty}></Route>
           <Route path="/ubication" component={Ubication}></Route>
           <Route path="/contact" component={Contact}></Route>
+          <Route path="/education" component={Educacion}></Route>
         </Switch>
         <Footer />
       </Router>
