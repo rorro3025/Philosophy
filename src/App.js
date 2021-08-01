@@ -9,14 +9,16 @@ import Beauty from "./components/beauty";
 import Ubication from "./components/Ubication";
 import Contact from "./components/Contact";
 import { initfb } from "./fsconfig";
-import Educacion from './components/Museum'
+import Educacion from "./components/Museum";
+import Header from "./components/Header";
 
 function App() {
   initfb.analytics();
- 
+
   return (
-    <div> 
+    <div>
       <Router>
+        <Header />
         <Menu />
         <Switch>
           <Route exact path="/" component={Home}></Route>

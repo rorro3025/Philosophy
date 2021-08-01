@@ -35,7 +35,7 @@ const History = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="col text-center">
+          <div className="col-sm text-center">
             <img
               src={img_grace_2}
               width="350px"
@@ -43,7 +43,7 @@ const History = () => {
               className="border border-5 border-dark"
             />
           </div>
-          <div className="col text-start">
+          <div className="col-sm text-start">
             <h3 className="text-start">Filosofia antigua</h3>
             <p className="text-start">
               Comprende la filosofía griega (presocrática y helenística) y la
@@ -63,7 +63,7 @@ const History = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="col">
+          <div className="col-sm">
             <h3 className="text-end">Edad media</h3>
             <p className="text-end">
               La filosofía medieval es la filosofía que se desarrolló en Europa
@@ -81,7 +81,7 @@ const History = () => {
               la filosofía posterior.
             </p>
           </div>
-          <div className="col text-center">
+          <div className="col-sm text-center">
             <img
               src={img_christ}
               height="325px"

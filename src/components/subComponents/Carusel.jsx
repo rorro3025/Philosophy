@@ -14,6 +14,7 @@ import jesus from "../img/s_cabello_jisus.png"; //11
 import tales_reflect from "../img/tales_mileto_m.png"; //12
 import sartre from "../img/sartre_o.jpg"; //13
 import pitag from "../img/pitagoras.jpg"; //14
+import marxMod from "../img/marx_modified.jpg.png"; //15
 /* originales de textos
 import wood_o from '..img/madera_1.jpg'
 import neon_o from '../img/neon_o.jpg'*/
@@ -32,8 +33,9 @@ function Carusel() {
     { id: 13, sr: sartre },
     { id: 9, sr: aris_or },
     { id: 11, sr: jesus },
-    { id: 6, sr: nitz },    
-    { id: 14, sr: pitag},
+    { id: 6, sr: nitz },
+    { id: 14, sr: pitag },
+    { id: 15, sr: marxMod },
   ];
   return (
     <div className="container">
