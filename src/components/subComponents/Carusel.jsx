@@ -15,6 +15,9 @@ import tales_reflect from "../img/tales_mileto_m.png"; //12
 import sartre from "../img/sartre_o.jpg"; //13
 import pitag from "../img/pitagoras.jpg"; //14
 import marxMod from "../img/marx_modified.jpg.png"; //15
+import platon_uni from "../img/platon_universo.png"; //16
+import rainbow from "../img/arcoiris.png"; //17
+import snow from "../img/nieve.jpg"; //18
 /* originales de textos
 import wood_o from '..img/madera_1.jpg'
 import neon_o from '../img/neon_o.jpg'*/
@@ -25,6 +28,7 @@ function Carusel() {
     { id: 2, sr: rain_2 },
     { id: 3, sr: rain_1 },
     { id: 4, sr: thunder_1 },
+    { id: 17, sr: rainbow },
     { id: 5, sr: thunder_2 },
     { id: 10, sr: aris },
     { id: 7, sr: kant },
@@ -36,6 +40,8 @@ function Carusel() {
     { id: 6, sr: nitz },
     { id: 14, sr: pitag },
     { id: 15, sr: marxMod },
+    { id: 16, sr: platon_uni },
+    { id: 18, sr: snow },
   ];
   return (
     <div className="container">

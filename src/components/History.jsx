@@ -2,6 +2,9 @@ import img_grace_1 from "./img/grace_1.jpg";
 import img_grace_2 from "./img/grace_2.jpg";
 import img_christ from "./img/cx.jpg";
 import aris_let from "./img/aristoteles_letras.png";
+import snow from "./img/nieve_mod.png";
+import text3d from "./img/Texto3D_2.png";
+
 const History = () => {
   return (
     <div className="container mt-5">
@@ -118,6 +121,48 @@ const History = () => {
               la filosofía que más atención y desarrollo recibieron fueron la
               filosofía política, el humanismo y la filosofía natural.
             </p>
+          </div>
+        </div>
+        <div className="row mt-3">
+          <div className="col">
+            <h3 className="text-end">Comtemporanea</h3>
+            <p className="text-end">
+              La filosofía contemporanea es el periodo actual de la historia de
+              la fislosofia, se le llama por este nombre a la filosofia de
+              autores que aun estan vivos Es el período que sigue a la filosofía
+              moderna, y su inicio se suele fijar a finales del siglo XIX o
+              principios del siglo XX.
+            </p>
+            <p className="text-end">
+              El siglo XX se encarga de las agitaciones producidas por una serie
+              de conflictos en el discurso filosófico sobre las bases del
+              conocimiento, con las certezas clásicas derrocadas, y con nuevos
+              problemas sociales, económicos, científicos y lógicos. La
+              filosofía del siglo XX se resolvió a intentar reformar y
+              preservar, y a alterar o abolir, viejos sistemas de conocimiento.
+              Figuras seminales incluyen a Søren Kierkegaard, Sigmund Freud,
+              Friedrich Nietzsche, Ernst Mach y John Dewey.
+            </p>
+          </div>
+          <div className="col text-center">
+            <img
+              src={snow}
+              height="325px"
+              alt="alter"
+              className="border border-5 border-dark"
+            />
+          </div>
+          <div className="row text-center mt-4">
+            <div className="col"></div>
+            <div className="col-sm">
+              <img
+                src={text3d}
+                width="500px"
+                className="border border-5 border-dark"
+                alt="extructured"
+              />
+            </div>
+            <div className="col"></div>
           </div>
         </div>
       </div>

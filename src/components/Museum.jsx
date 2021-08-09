@@ -68,25 +68,18 @@ function Museum() {
           </div>
         </div>
         <div className="row">
-            <div className="col"></div>
             <div className="col-sm">
               <img src={cromo} alt="frase_cromo" width="500px" className="border border-4 border-secondary"/>
             </div>
-            <div className="col"></div>
-          </div>
-        <div className="row mt-3">
-          <div className="col">
+            <div className="col">
             <video
               src={urlLogoAnimate}
               width="480px"
               preload="none"
               controls
             ></video>
+            </div>
           </div>
-          <div className="col">
-            <h1>Logo</h1>
-          </div>
-        </div>
       </div>
     </div>
   );
